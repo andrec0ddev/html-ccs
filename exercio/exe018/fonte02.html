@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Paul';
+            src: url('Paul Jackson_personal use') format();
+            ('opentype'), url('love larry.ttf')
+            format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+               Tipos de fomart()
+               - opentype (otf)
+               - truetype (ttf)
+               - embredded-opentype
+               - truetype-aat (Apple Advanced Typography) - svg
+            */
+        }
+        body {
+            src: url( C);
+            font-family: 'Paul', Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cumque,
+    a magnam dicta itaque qui dolor, facilis doloremque nisi neque omnis. Doloribus natus sequi 
+    rem quasi! Iusto repellat cupiditate velit!</p>
+</body>
+</html>

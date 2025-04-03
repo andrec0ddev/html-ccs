@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-brs   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+     <h1>Imagen dinâmica</h1>
+     <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador.
+     </p>
+
+     <picture>
+        <source media="(max-width: 750px)" srcset="imagen/fotop.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagen/fotom.png" type="image/png">
+        <img src="imagen/fotog.png" alt="imagem flexível">
+     </picture>
+
+    <h1>Reproduzindo Áudio </h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+     <audio preload="audio" autoplay controls loop>
+        <source src="midia/[NEFFEX] Músicas que fazem você se sentir forte  NEFFEX Playlist  1 HORA Mix.mp3" type="audio/mp3">
+        <source src="midia/[NEFFEX] Músicas que fazem você se sentir forte  NEFFEX Playlist  1 HORA Mix.ogg" type="audio/ogg">
+        <source src="midia/[NEFFEX] Músicas que fazem você se sentir forte  NEFFEX Playlist  1 HORA Mix.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reroduzir áudio.</p>
+        <a href="midia/[NEFFEX] Músicas que fazem você se sentir forte  NEFFEX Playlist  1 HORA Mix.mp3">Clique aqui para baixar arquivo MP3</a>
+   </audio>
+</body>
+</html>
